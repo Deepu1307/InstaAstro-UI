@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 50px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #ff8800;
+}
+
+.main-logo a img {
+    width: 160px;
+    height: 22px;
+}
+
+nav {
+    background-color: #ffd700;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #000;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .contact-btn,
+.auth-buttons .sign-up {
+    border: 1px solid #606366;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #606366;
+    font-size: 15px;
+    vertical-align: middle;
+    margin: 0 4px;
+    transition: all linear 0.2s;
+}
+
+.auth-buttons .contact-btn img {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin: 0px 4px 3px 0px;
+    transition: all linear 0.2s;
+}
+
+
+.auth-buttons .contact-btn {
+    color: grey;
+}
+
+.auth-buttons .sign-up {
+    background-color: #ff8800;
+    color: white;
+}
